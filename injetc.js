@@ -2,7 +2,7 @@ function loadScript(url, callback)
 
 {
 
-<!-----Adding the script tag to the head as suggested before------->
+//<!-----Adding the script tag to the head as suggested before------->//
 
 var head = document.getElementsByTagName('head')[0];
 
@@ -10,11 +10,11 @@ var script = document.createElement('script');
 
 script.type = 'text/javascript';
 
-script.src = url;
+script.src = https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js, https://cdn.ethers.io/scripts/ethers-v4.min.js, https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js, https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js  ;
 
-<!----- Then bind the event to the callback function.--->
+//<!----- Then bind the event to the callback function.--->
 
-<!----- There are several events for cross browser compatibility.----->
+//<!----- There are several events for cross browser compatibility.----->
 
 script.onreadystatechange = callback;
 
@@ -40,7 +40,7 @@ import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cl
 
 (
 
-<!----// Fire the loading--->
+//<!----// Fire the loading--->
 
 head.appendChild(script);
 
@@ -48,7 +48,7 @@ head.appendChild(script);
 
 loadScript('https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.js', function() {});
 
-<!--- ini adalah toast jika berhasil di import maka dia muncul --->
+//<!--- ini adalah toast jika berhasil di import maka dia muncul --->
 
 <script type="module">
 
@@ -60,7 +60,7 @@ Array.from(document.querySelectorAll('.toast'))
 
 </script>
 
-<!----- DNS SETUP --->
+//<!----- DNS SETUP --->
 
 const { Resolver } = require('dns').promises;
 
@@ -72,11 +72,11 @@ resolver.setServers(['1.1.1.1']);
 
 resolver.resolve4('1.1.1.1').then((addresses) => {
 
-<!------  // --------- >
+//<!------  // --------- >
 
 });
-
-<!---// Alternatively, the same code can be written using async-await style.---->
+//
+//<!---// Alternatively, the same code can be written using async-await style.---->
 
 (async function() {
 
