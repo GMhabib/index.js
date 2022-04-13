@@ -1,21 +1,4 @@
-// animation try
-const whiteRabbit = document.getElementById('rabbit');
 
-const rabbitDownKeyframes = new KeyframeEffect(
-    whiteRabbit, // element to animate
-    [
-      { transform: 'translateY(0%)' }, // keyframe
-      { transform: 'translateY(100%)' } // keyframe
-    ],
-    { duration: 3000, fill: 'forwards' } // keyframe options
-  );
-  
-const rabbitDownAnimation = new Animation(rabbitDownKeyframes, document.timeline);
-  
-// Play rabbit animation
-rabbitDownAnimation.play();
-
-// end animation script
 
 function loadScript(url, callback) {
   
@@ -62,6 +45,8 @@ import * as data from "https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-s
 import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";
 
 import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";
+
+import * as data from "https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
 
 (
 
