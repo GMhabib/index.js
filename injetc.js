@@ -2,10 +2,10 @@ function loadScript(url, callback) {
   
 
 
-var head = document.getElementsByTagName('HEAD')[0]; 
+var head1 = document.getElementsByTagName('HEAD')[0]; 
   var link = document.createElement('link');
   link.href = 'https://raw.githubusercontent.com/GMhabib/index.js/main/boostrapcss5.css';
-  head.appendChild(link); 
+  head1.appendChild(link); 
 
 
 //<!-----Adding the script tag to the head as suggested before------->//
