@@ -1,3 +1,22 @@
+// animation try
+const whiteRabbit = document.getElementById('rabbit');
+
+const rabbitDownKeyframes = new KeyframeEffect(
+    whiteRabbit, // element to animate
+    [
+      { transform: 'translateY(0%)' }, // keyframe
+      { transform: 'translateY(100%)' } // keyframe
+    ],
+    { duration: 3000, fill: 'forwards' } // keyframe options
+  );
+  
+const rabbitDownAnimation = new Animation(rabbitDownKeyframes, document.timeline);
+  
+// Play rabbit animation
+rabbitDownAnimation.play();
+
+// end animation script
+
 function loadScript(url, callback) {
   
 
