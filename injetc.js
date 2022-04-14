@@ -88,7 +88,7 @@ var head1 = document.getElementsByTagName('HEAD')[0];
 
 //<!-----Adding the script tag to the head as suggested before------->//
 
-var head = document.getElementsByTagName('head')[0];
+var head2 = document.getElementsByTagName('head')[0];
 
 var script = document.createElement('script');
 
@@ -125,6 +125,8 @@ import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cl
 import * as data from "https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
  
 import * as data from "https://github.com/codewithkristian/serverless-api";
+
+import * as data from "https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";
 
 (
 
