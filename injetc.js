@@ -123,6 +123,8 @@ import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/j
 import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";
 
 import * as data from "https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
+ 
+import * as data from "https://github.com/codewithkristian/serverless-api";
 
 (
 
