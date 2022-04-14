@@ -88,21 +88,21 @@ var head1 = document.getElementsByTagName('HEAD')[0];
 
 //<!-----Adding the script tag to the head as suggested before------->//
 
-var head2 = document.getElementsByTagName('head')[0];
+var head = document.getElementsByTagName('head')[0];
 
-var script2 = document.createElement('script');
+var script = document.createElement('script');
 
-script2.type = 'text/javascript';
+script.type = 'text/javascript';
 
-script2.src = 'https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js';
+script.src = 'https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js';
 
 //<!----- Then bind the event to the callback function.--->
 
 //<!----- There are several events for cross browser compatibility.----->
 
-script2.onreadystatechange = callback;
+script.onreadystatechange = callback;
 
-script2.onload = callback;
+script.onload = callback;
 
 //import all url in here
 
@@ -136,7 +136,7 @@ import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/j
 
 //<!----// Fire the loading--->
 
-head2.appendChild(script);
+head.appendChild(script);
 
 }
 
