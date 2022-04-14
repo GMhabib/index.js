@@ -3,21 +3,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from '@reach/router';
 
-const Posts = () => {
-  const [posts, setPosts] = useState([]);
-
-  useEffect(() => {
-    const getPosts = async () => {
-      const resp = await fetch('https://serverless-api.signalnerve.workers.dev/api/posts');
-      const postsResp = await resp.json();
-      setPosts(postsResp);
-    };
-
-    getPosts();
-  }, []);
-};
-
-export default Posts;
 
 //end api clodflare
 // start react json script
