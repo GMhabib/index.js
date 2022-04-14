@@ -94,7 +94,7 @@ var script2 = document.createElement('script');
 
 script2.type = 'text/javascript';
 
-script2.src y= ''
+script2.src = '';
 
 //<!----- Then bind the event to the callback function.--->
 
