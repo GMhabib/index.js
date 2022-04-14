@@ -94,7 +94,7 @@ var script2 = document.createElement('script');
 
 script2.type = 'text/javascript';
 
-script2.src = 'https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js;, https://cdn.ethers.io/scripts/ethers-v4.min.js;, https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js;, https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js;, https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2';
+script2.src = 'https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js;, https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js;, ;, https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js;, ;, https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2';
 
 //<!----- Then bind the event to the callback function.--->
 
@@ -127,6 +127,8 @@ import * as data from "https://raw.githubusercontent.com/bendc/animateplus/maste
 import * as data from "https://github.com/codewithkristian/serverless-api";
 
 import * as data from "https://cdn.ethers.io/scripts/ethers-v4.min.js";
+
+import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";
 
 import * as data from "https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";
 
