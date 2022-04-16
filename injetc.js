@@ -473,13 +473,7 @@ export default {
 
 
 // end of react script animator
-
-// start api
-
-import React, { useEffect, useState } from 'react';
-import { Link } from '@reach/router';
-
-//end api clodflare
+//##############################################//
 // start react json script
 
 import React, { useEffect, useState } from 'react';
