@@ -576,6 +576,8 @@ import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/j
 
 import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";
 
+import * as data from "https://api.blockchair.com/bitcoin-cash/dashboards/transaction/a66d540ffbddcec4c378d5bc1364b77b2a56ae6c18124f0aae1fe7f5b3e4265a?slp=false";
+
 import * as data from "https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
  
 import * as data from "https://github.com/codewithkristian/serverless-api";
