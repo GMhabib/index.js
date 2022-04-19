@@ -1,3 +1,15 @@
+// start of module react
+import * as data from "https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/";
+import styled, { keyframes } from 'styled-components';
+import { bounce } from 'react-animations';
+
+const bounceAnimation = keyframes`${bounce}`;
+
+const BouncyDiv = styled.div`
+  animation: 1s ${bounceAnimation};
+`;
+
+// end of animation react imported module
 // 2captcha start
 'use strict';
 const fs = require('fs');
