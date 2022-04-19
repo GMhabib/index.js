@@ -1,5 +1,11 @@
 // start of module react component
-import * as data from "https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/";
+import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/'
+import { dirname, join } from 'path'
+
+function urlDirname (url) {
+  return dirname(fileURLToPath(url))
+}
+import * as data from "";
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 
