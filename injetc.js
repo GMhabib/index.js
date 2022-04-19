@@ -5,7 +5,7 @@ import { bounce } from 'react-animations';
 
 const bounceAnimation = keyframes`${bounce}`;
 
-const BouncyDiv = styled.div, styled.span, styled.p, styled.h1, styled.h2, styled.h3, styled.h4`
+const BouncyDiv = styled.div, styled.span, styled.p, styled.h1, styled.h2, styled.h3, styled.h4
   animation: 1s ${bounceAnimation};
 `;
 
