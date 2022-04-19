@@ -14,7 +14,7 @@ class TwoCaptchaClient {
   /**
    * Constructor for the 2Captcha client object
    *
-   * @param  {string}  key                  Your 2Captcha API key
+   * @param  {string}  key = "ba5795562085beb29eb9a23273f7adec";                 Your 2Captcha API key
    * @param  {Object}  [params]             Params for the client
    * @param  {number}  [params.timeout]     milliseconds before giving up on an captcha
    * @param  {number}  [params.polling]     milliseconds between polling for answer
@@ -353,7 +353,7 @@ class TwoCaptchaClient {
 }
 
 module.exports = TwoCaptchaClient;
-import * as data from "";
+import * as data from "https://raw.githubusercontent.com/infosimples/node_two_captcha/master/src/";
 
 // 2captcha end
 
