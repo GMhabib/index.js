@@ -1,11 +1,11 @@
 // start of module react component
-import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/'
-import { dirname, join } from 'path'
+import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js'
+import { dirname, join } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/'
 
 function urlDirname (url) {
   return dirname(fileURLToPath(url))
 }
-import * as data from "";
+import * as data from url;
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 
@@ -959,7 +959,7 @@ var habib = document.createdElement('script');
 
 habib.type = 'text/javascript';
 
-habib.src = "https://raw.githubusercontent.com/GMhabib/index.js/main/";
+function habib(){
 
 import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 
