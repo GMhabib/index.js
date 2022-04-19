@@ -6,10 +6,10 @@ import { bounce } from 'react-animations';
 const bounceAnimation = keyframes`${bounce}`;
 
 const BouncyDiv = styled.div
-  animation: 1s ${bounceAnimation};
-`;
+  animation: 0s ${bounceAnimation};
 
 // end of animation react imported module component
+
 // start felajs bounce animation inject
 import React from 'react';
 import { render } from 'react-dom';
