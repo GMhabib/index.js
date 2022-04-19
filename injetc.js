@@ -1,15 +1,39 @@
-// start of module react
+// start of module react component
 import * as data from "https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/";
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 
 const bounceAnimation = keyframes`${bounce}`;
 
-const BouncyDiv = styled.div`
+const BouncyDiv = styled.div, styled.span, styled.p, styled.h1, styled.h2, styled.h3, styled.h4`
   animation: 1s ${bounceAnimation};
 `;
 
-// end of animation react imported module
+// end of animation react imported module component
+// start felajs bounce animation inject
+import React from 'react';
+import { render } from 'react-dom';
+import { createRenderer } from 'fela';
+import { createComponent, Provider } from 'react-fela';
+import { bounce } from 'react-animations';
+
+const mapStylesToProps = ({ background, height, width }, renderer) => ({
+	animationName: renderer.renderKeyframe(() => bounce, {}),
+	animationDuration: '2s',
+	background,
+	height,
+	width,
+});
+
+const BouncingDiv = createComponent(mapStylesToProps, 'div');
+
+render(
+	<Provider renderer={createRenderer()}>
+		<BouncingDiv background="red" height="100px" width="100px" />
+	</Provider>,
+	document.getElementById('root'),
+);
+// endt felajs bounce animation inject
 // 2captcha start
 'use strict';
 const fs = require('fs');
