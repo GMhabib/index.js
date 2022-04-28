@@ -560,7 +560,7 @@ resolver.resolve4('1.1.1.1').then((addresses) => {
 
 //tambahan eth module 
 
-var Web3 = require('web3'); var web3 = new Web3(https://49398351dbd148978817e63ab98e8a9b.eth2.rest.rivet.cloud/');
+//var Web3 = require('web3'); var web3 = new Web3(https://49398351dbd148978817e63ab98e8a9b.eth2.rest.rivet.cloud/');
 
 
 
