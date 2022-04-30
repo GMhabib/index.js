@@ -1,6 +1,6 @@
 // start of module react component
-$url = url;
-url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
+
+$url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
 import { fileURLToPath } from $url;
 import { dirname, join } from $url;
 
