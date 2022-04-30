@@ -496,12 +496,6 @@ script.onload = callback;
 
 //import all url in here
 
-var habib = document.createdElement('script');
-
-habib.type = 'text/javascript';
-
-function habib(){
-
 import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 
 import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
@@ -538,8 +532,6 @@ const require = createRequire(import.meta.url);
 //
 
 //<!----// Fire the loading--->
-
-}
 
 loadScript('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js', function() {});
 
