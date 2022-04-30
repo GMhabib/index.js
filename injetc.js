@@ -2,15 +2,20 @@
 import React,{Component} from "react";
 import ReactDOM from "react-dom";
 
-import "./styles.css";
+import "";
 
 class App extends Component {
   componentDidMount() {
-    const script = document.createElement("script");    script.async = true;    script.src = "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";    this.div.appendChild(script);  }
+    const script = document.createElement("script");    
+   script.async = true;    
+   script.src = "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";    
+   this.div.appendChild(script);  
+  }
   render() {
     return (
       <div className="App" ref={el => (this.div = el)}>        <h1>Hello react</h1>
-        { ./bootstrap.min.js}
+        { system(curl -s https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js);
+   }
       </div>
     );
   }
