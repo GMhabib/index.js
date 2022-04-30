@@ -1,34 +1,8 @@
-// start to export
-import React,{Component} from "react";
-import ReactDOM from "react-dom";
-
-import "https://raw.githubusercontent.com/GMhabib/index.js/main/boostrapcss5.css";
-
-class App extends Component {
-  componentDidMount() {
-   const script = document.createElement("script");    
-   script.async = true;    
-   script.src = "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
-   const respons = waiting fetch(script.src);
-   this.div.appendChild(script.src);  
-  }
-  render() {
-    return (
-      <div className="App" ref={el => (this.div = el)}>        <h1>Hello react</h1>
-        { system(curl -s https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js);
-   }
-      </div>
-    );
-  }
-}
-
-export default App;
-
-// end this expirt path 
-
 // start of module react component
-import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js'
-import { dirname, join } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js'
+$url = url;
+url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
+import { fileURLToPath } from url
+import { dirname, join } from url
 
 function urlDirname (url) {
   return dirname(fileURLToPath(url))
