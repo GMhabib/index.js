@@ -1,3 +1,18 @@
+// timing start
+try {
+  // Create the performance observer.
+  const po = new PerformanceObserver((list) => {
+    for (const entry of list.getEntries()) {
+      // Logs all server timing data for this response
+      console.log('Server Timing', entry.serverTiming);
+    }
+  });
+  // Start listening for `navigation` entries to be dispatched.
+  po.observe({type: 'navigation', buffered: true});
+} catch (e) {
+  // Do nothing if the browser doesn't support this API.
+}
+// timing end
 // install start
   src="https://unpkg.com/react/umd/react.production.min.js" crossorigin;
   src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin;
@@ -34,55 +49,6 @@ useEffect(() => {
 }, []);
 
 //end set allowed
-
-// start of module react component
-
-$url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
-import { fileURLToPath } from $url;
-import { dirname, join } from $url;
-
-function urlDirname (url) {
-  return dirname(fileURLToPath(url))
-}
-import * as data from $url;
-import styled, { keyframes } from 'styled-components';
-import { bounce } from 'react-animations';
-
-const bounceAnimation = keyframes`${bounce}`;
-
-const BouncyDiv = styled.div
-  animation: 1s ${bounceAnimation};
-
-// end of animation react imported module component
-
-// start felajs bounce animation inject
-import React from 'react';
-import { render } from 'react-dom';
-import { createRenderer } from 'fela';
-import { createComponent, Provider } from 'react-fela';
-import { bounce } from 'react-animations';
-
-const mapStylesToProps = ({ background, height, width }, renderer) => ({
-	animationName: renderer.renderKeyframe(() => bounce, {}),
-	animationDuration: '2s',
-	background,
-	height,
-	width,
-});
-
-const BouncingDiv = createComponent(mapStylesToProps, 'div');
-
-render(
-	<Provider renderer={createRenderer()}>
-		<BouncingDiv background="red" height="100px" width="100px" />
-	</Provider>,
-	document.getElementById('root'),
-);
-// endt felajs bounce animation inject
-
-// 2captcha start
-
-// 2captcha end
 
 //##############################################//
 // start react json video script
