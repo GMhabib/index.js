@@ -1,3 +1,6 @@
+//start of dispatch
+const [state, dispatch] = useReducer(reducer, initialArg, init);
+//end of dispatch
 // start allowed 
 useEffect(() => {
   const script = document.createElement('script');
