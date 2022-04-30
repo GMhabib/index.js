@@ -539,8 +539,6 @@ const require = createRequire(import.meta.url);
 
 //<!----// Fire the loading--->
 
-head.appendChild(script);
-
 }
 
 loadScript('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js', function() {});
