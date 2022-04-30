@@ -1,6 +1,6 @@
 // start to export
 function injected() {
-import * as data from "https://raw.githubusercontent.com/FormidableLabs/victory/main/packages/victory/src/index.js";
+//import * as data from "https://raw.githubusercontent.com/FormidableLabs/victory/main/packages/victory/src/index.js";
 import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/victory/main/packages/victory/src/index.js';
 export {
   addEvents,
