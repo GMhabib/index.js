@@ -7,7 +7,7 @@ import { dirname, join } from $url;
 function urlDirname (url) {
   return dirname(fileURLToPath(url))
 }
-import * as data from url;
+import * as data from $url;
 import styled, { keyframes } from 'styled-components';
 import { bounce } from 'react-animations';
 
