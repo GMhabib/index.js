@@ -113,42 +113,23 @@ export default App = () => {
 
 
 //import all url in here
-function younger() {
-cons mylover = document.createElement('script');
-mylover.async = true;
-mylover.src = $dat1;
-$dat1=dat1;
-function dat1() {
-import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
-
-import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
-
-import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js";
-
-import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
-
-import * as data from "https://cdn.ethers.io/scripts/ethers-v4.min.js";
-
-import * as data from "https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js";
-
-import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";
-
-import * as data from "https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";
-
-import * as data from "https://api.blockchair.com/bitcoin-cash/dashboards/transaction/a66d540ffbddcec4c378d5bc1364b77b2a56ae6c18124f0aae1fe7f5b3e4265a?slp=false";
-
-import * as data from "https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
- 
-import * as data from "https://github.com/codewithkristian/serverless-api";
-
-import * as data from "https://cdn.ethers.io/scripts/ethers-v4.min.js";
-
-import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";
-
-import * as data from "https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";
-
-import * as data from "https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
-}
+type="module";                                                                                                                                                         
+src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
+src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";                                                                                           
+src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js";                                                                                                                                                                               
+src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";                                                                                                                                                                            
+src="https://cdn.ethers.io/scripts/ethers-v4.min.js";                                                                                                                           
+src="https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js";         
+src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";                                                                                                                                                                          
+src="https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";                                                                                                            
+src="https://api.blockchair.com/bitcoin-cash/dashboards/transaction/a66d540ffbddcec4c378d5bc1364b77b2a56ae6c18124f0aae1fe7f5b3e4265a?slp=false";                                                                                                                        
+src="https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";                                                                                                
+src="https://github.com/codewithkristian/serverless-api";                                                                                                                       
+src="https://cdn.ethers.io/scripts/ethers-v4.min.js";                                                                                                                           
+src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";                                                                                                                                                                          
+src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";                                                                                                                      
+src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
+// end import
 //<!--- ini adalah toast jika berhasil di import maka dia muncul --->
 
 <script type="module">
