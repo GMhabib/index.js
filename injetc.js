@@ -1,3 +1,12 @@
+// start effect
+useEffect(() => {
+  const subscription = props.source.subscribe();
+  return () => {
+    // Clean up the subscription
+    subscription.unsubscribe();
+  };
+});
+// end effect
 //start of dispatch
 const [state, dispatch] = useReducer(reducer, initialArg, init);
 //end of dispatch
