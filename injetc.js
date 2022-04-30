@@ -7,6 +7,7 @@ useEffect(() => {
   };
 });
 // end effect
+
 //start of dispatch
 const [state, dispatch] = useReducer(reducer, initialArg, init);
 //end of dispatch
@@ -25,6 +26,7 @@ useEffect(() => {
 }, []);
 
 //end set allowed
+
 // start of module react component
 
 $url ="https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js";
@@ -137,17 +139,6 @@ src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.respo
 src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";                                                                                                                      
 src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 // end import
-//<!--- ini adalah toast jika berhasil di import maka dia muncul --->
-
-<script type="module">
-
-  import { Toast } from 'https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js';
-
-Array.from(document.querySelectorAll('.toast'))
-
-    .forEach(toastNode => new Toast(toastNode))
-
-</script>
 
 //<!----- DNS SETUP --->
 
