@@ -113,7 +113,12 @@ export default App = () => {
 
 
 //import all url in here
-
+function younger() {
+cons mylover = document.createElement('script');
+mylover.async = true;
+mylover.src = $dat1;
+$dat1=dat1;
+function dat1() {
 import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 
 import * as data from "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
@@ -143,7 +148,7 @@ import * as data from "https://faucetpay.io/dash/lib/datatables.net-responsive/j
 import * as data from "https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";
 
 import * as data from "https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
-
+}
 //<!--- ini adalah toast jika berhasil di import maka dia muncul --->
 
 <script type="module">
