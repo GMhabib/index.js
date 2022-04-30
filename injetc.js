@@ -12,7 +12,7 @@ import { bounce } from 'react-animations';
 const bounceAnimation = keyframes`${bounce}`;
 
 const BouncyDiv = styled.div
-  animation: 0s ${bounceAnimation};
+  animation: 1s ${bounceAnimation};
 
 // end of animation react imported module component
 
