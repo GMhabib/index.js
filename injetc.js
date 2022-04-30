@@ -103,10 +103,11 @@ export {
   CanvasBar,
   useCanvasContext
 } from "victory-canvas";
-}
 
 injected.onload = callback;
 injected.onreadystatechange = callback;
+}
+
 
 
 // end this expirt path 
