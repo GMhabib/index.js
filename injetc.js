@@ -103,9 +103,9 @@ export {
   CanvasBar,
   useCanvasContext
 } from "victory-canvas";
+// this back fuction injected
 
-injected.onload = callback;
-injected.onreadystatechange = callback;
+return injected(fileURLToPath(url))
 }
 
 
