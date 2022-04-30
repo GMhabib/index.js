@@ -1,114 +1,22 @@
 // start to export
-function injected() {
-//import * as data from "https://raw.githubusercontent.com/FormidableLabs/victory/main/packages/victory/src/index.js";
-import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/victory/main/packages/victory/src/index.js';
-export {
-  addEvents,
-  Axis,
-  Background,
-  Border,
-  Box,
-  Circle,
-  ClipPath,
-  Collection,
-  Data,
-  DefaultTransitions,
-  Domain,
-  Events,
-  Helpers,
-  LabelHelpers,
-  Line,
-  LineSegment,
-  Log,
-  Path,
-  Point,
-  Portal,
-  PropTypes,
-  Rect,
-  Scale,
-  Selection,
-  Style,
-  Text,
-  TextSize,
-  Transitions,
-  TSpan,
-  UserProps,
-  VictoryAccessibleGroup,
-  VictoryAnimation,
-  VictoryClipContainer,
-  VictoryContainer,
-  VictoryLabel,
-  VictoryPortal,
-  VictoryTheme,
-  VictoryTransition,
-  Whisker,
-  Wrapper
-} from "victory-core";
+import React,{Component} from "react";
+import ReactDOM from "react-dom";
 
-export { VictoryChart } from "victory-chart";
-export { VictoryGroup } from "victory-group";
-export { VictoryStack } from "victory-stack";
-export { VictoryPie, Slice } from "victory-pie";
-export { VictoryArea, Area } from "victory-area";
-export { VictoryBar, Bar } from "victory-bar";
-export { VictoryCandlestick, Candle } from "victory-candlestick";
-export { VictoryErrorBar, ErrorBar } from "victory-errorbar";
-export { VictoryHistogram } from "victory-histogram";
-export { VictoryLine, Curve } from "victory-line";
-export { VictoryScatter } from "victory-scatter";
-export { VictoryBoxPlot } from "victory-box-plot";
-export { VictoryVoronoi, Voronoi } from "victory-voronoi";
-export { VictoryBrushLine } from "victory-brush-line";
-export {
-  VictoryBrushContainer,
-  BrushHelpers,
-  brushContainerMixin
-} from "victory-brush-container";
-export {
-  VictoryCursorContainer,
-  CursorHelpers,
-  cursorContainerMixin
-} from "victory-cursor-container";
-export {
-  VictorySelectionContainer,
-  SelectionHelpers,
-  selectionContainerMixin
-} from "victory-selection-container";
-export {
-  VictoryVoronoiContainer,
-  VoronoiHelpers,
-  voronoiContainerMixin
-} from "victory-voronoi-container";
-export {
-  VictoryZoomContainer,
-  ZoomHelpers,
-  zoomContainerMixin,
-  RawZoomHelpers
-} from "victory-zoom-container";
-export {
-  combineContainerMixins,
-  makeCreateContainerFunction,
-  createContainer
-} from "victory-create-container";
+import "./styles.css";
 
-export { VictoryTooltip, Flyout } from "victory-tooltip";
-export { VictoryLegend } from "victory-legend";
-export { VictorySharedEvents } from "victory-shared-events";
-export { VictoryAxis } from "victory-axis";
-export { VictoryPolarAxis } from "victory-polar-axis";
-export {
-  CanvasGroup,
-  CanvasCurve,
-  CanvasPoint,
-  CanvasBar,
-  useCanvasContext
-} from "victory-canvas";
-// this back fuction injected
-
-return injected(fileURLToPath(url))
+class App extends Component {
+  componentDidMount() {
+    const script = document.createElement("script");    script.async = true;    script.src = "https://some-scripturl.js";    this.div.appendChild(script);  }
+  render() {
+    return (
+      <div className="App" ref={el => (this.div = el)}>        <h1>Hello react</h1>
+        { ./inject.js}
+      </div>
+    );
+  }
 }
 
-
+export default App;
 
 // end this expirt path 
 
@@ -154,6 +62,7 @@ render(
 	document.getElementById('root'),
 );
 // endt felajs bounce animation inject
+
 // 2captcha start
 'use strict';
 const fs = require('fs');
