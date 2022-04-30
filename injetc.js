@@ -6,10 +6,11 @@ import "https://raw.githubusercontent.com/GMhabib/index.js/main/boostrapcss5.css
 
 class App extends Component {
   componentDidMount() {
-    const script = document.createElement("script");    
+   const script = document.createElement("script");    
    script.async = true;    
-   script.src = "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";    
-   this.div.appendChild(script);  
+   script.src = "https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
+   const respons = waiting fetch(script.src);
+   this.div.appendChild(script.src);  
   }
   render() {
     return (
