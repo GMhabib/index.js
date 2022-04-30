@@ -22,7 +22,7 @@ export default App;
 
 // start of module react component
 import { fileURLToPath } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js'
-import { dirname, join } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/'
+import { dirname, join } from 'https://raw.githubusercontent.com/FormidableLabs/react-animations/master/src/bounce.js'
 
 function urlDirname (url) {
   return dirname(fileURLToPath(url))
