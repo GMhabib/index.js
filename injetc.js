@@ -2,7 +2,7 @@
 import React,{Component} from "react";
 import ReactDOM from "react-dom";
 
-import "";
+import "https://raw.githubusercontent.com/GMhabib/index.js/main/boostrapcss5.css";
 
 class App extends Component {
   componentDidMount() {
