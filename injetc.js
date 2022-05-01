@@ -16,7 +16,7 @@ scrict.src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTable
 scrict.src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";                                                                                                                      
 scrict.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 }
-print_r(strict);
+export default app;
 // end import
 
 //<!----- DNS SETUP --->
