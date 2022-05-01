@@ -1,10 +1,3 @@
-//################ use state line #################
-function habibGM() {
-  const [count, setCount] = React.useState(1);
-}
-
-//##############end use state##################
-
 //import all url in here
 function strict() {                                                                                                                                                     
 strict.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
