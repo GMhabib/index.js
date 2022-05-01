@@ -1,5 +1,5 @@
 //import all url in here
-type="module";                                                                                                                                                         
+function strict () {                                                                                                                                                     
 src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";                                                                                           
 src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js";                                                                                                                                                                               
@@ -15,6 +15,7 @@ src="https://cdn.ethers.io/scripts/ethers-v4.min.js";
 src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";                                                                                                                                                                          
 src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";                                                                                                                      
 src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
+}
 // end import
 
 //<!----- DNS SETUP --->
