@@ -1,3 +1,28 @@
+
+
+
+
+//################ use state line #################
+function Example() {
+  const [count, setCount] = React.useState(1);
+
+  // Similar to componentDidMount and componentDidUpdate:  
+  React.useEffect(() => {    // Update the document title using the browser API    
+    document.title = `You clicked ${count} times`;  });
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+
+
+//##############end use state##################
+
 //import all url in here
 function strict () {                                                                                                                                                     
 strict.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
