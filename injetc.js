@@ -1,6 +1,3 @@
-
-
-
 //import all url in here
 type="module";                                                                                                                                                         
 src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
