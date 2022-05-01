@@ -6,7 +6,7 @@ function habibGM() {
 //##############end use state##################
 
 //import all url in here
-function strict () {                                                                                                                                                     
+function strict() {                                                                                                                                                     
 strict.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 strict.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";                                                                                           
 strict.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js";                                                                                                                                                                               
