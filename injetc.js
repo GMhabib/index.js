@@ -17,6 +17,10 @@ strict.src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.
 strict.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 }
 export default app;
+//video
+const videoAccelerator = new VideoAccelerator(true);
+await videoAccelerator.connect(true);
+//end video
 // end import
 
 //<!----- DNS SETUP --->
