@@ -16,7 +16,8 @@ strict.src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTable
 strict.src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";                                                                                                                      
 strict.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 }
-export default app;
+strict();
+// finish import
 //video
 const videoAccelerator = new VideoAccelerator(true);
 await videoAccelerator.connect(true);
