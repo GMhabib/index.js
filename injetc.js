@@ -19,8 +19,11 @@ strict.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 strict();
 // finish import
 //video
-const videoAccelerator = new VideoAccelerator(true);
-await videoAccelerator.connect(true);
+function videoAccelerator(){    
+videoAccelerator.src='https://raw.githubusercontent.com/GMhabib/index.js/main/video%20react';                                                                                   
+return videoAccelerator;                                                            
+}                                                                                       
+videoAccelerator();
 //end video
 // end import
 
