@@ -143,7 +143,7 @@ console.log(videoAccelerator);
 //<!----- DNS SETUP --->
 function speeddata(){
   speeddata.src{'https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
-   return speeddata;
+   
    speeddata.import= true;
    return speeddata;
 }
