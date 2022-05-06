@@ -19,17 +19,17 @@ strict.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 strict();
 // finish import
 //video
-function videoAccelerator(){    
-videoAccelerator.src='https://raw.githubusercontent.com/GMhabib/index.js/main/video%20react';                                                                                   
-return videoAccelerator;                                                            
-}                                                                                       
-videoAccelerator();
+//function videoAccelerator(){    
+//videoAccelerator.src='https://raw.githubusercontent.com/GMhabib/index.js/main/video%20react';                                                                                   
+//return videoAccelerator;                                                            
+//}                                                                                       
+//videoAccelerator();
 //end video
 // end import
 
 //<!----- DNS SETUP --->
-function speeddata(){
-   speeddata.src{'https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
-    return speeddata;
-}
-speeddata();
+//function speeddata(){
+//   speeddata.src{'https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
+//   return speeddata;
+//}
+//speeddata();
