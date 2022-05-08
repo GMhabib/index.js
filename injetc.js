@@ -75,6 +75,11 @@ strict15.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 strict15.import=true;
 return strict15;
 }
+function strict16() {
+strict16.src="https://jsc.mgid.com/m/e/mercusuar.uzone.id.1224335.es6.js";
+strict16.import=true;
+return strict16;
+}
 // all fuction import try
 strict1();
 strict2();
@@ -91,6 +96,7 @@ strict12();
 strict13();
 strict14();
 strict15();
+strict16();
 // coba pakai string nomer urut
 $strict1=strict1;
 $strict2=strict2;
@@ -107,6 +113,7 @@ $strict12=strict12;
 $strict13=strict13;
 $strict14=strict14;
 $strict15=strict15;
+$strict16=strict16;
 
 // yg ini log stringnya di node test
 console.log(strict1);
@@ -124,7 +131,7 @@ console.log(strict12);
 console.log(strict13);
 console.log(strict14);
 console.log(strict15);
-
+console.log(strict16);
 // finish import
 
 
