@@ -1,16 +1,10 @@
 //header remover cache
 
 function response() {
-      response.Float64Array();
-      response.Float32Array();
-      response.parseFloat();
-      response.parseInt();
-      response.InternalError();
-      response.interface();
-    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
-response.setHeader("Pragma", "no-cache");
-response.setDateHeader("Expires", 0);
-response.import=true;
+      response.import=true;
+    response.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
+response.setHeader="Pragma", "no-cache";
+response.setDateHeader="Expires", 0;
 }
 response();
 $response=response;
