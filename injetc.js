@@ -1,4 +1,8 @@
-
+//header remover cache
+response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
+//header remover cache ending
 //import all url in here
 function strict1() {                    
 strict1.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
