@@ -1,7 +1,20 @@
 //header remover cache
-response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+function response() {
+      response.Float64Array();
+      response.Float32Array();
+      response.parseFloat();
+      response.parseInt();
+      response.InternalError();
+      response.interface();
+    response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
 response.setHeader("Pragma", "no-cache");
 response.setDateHeader("Expires", 0);
+import=true;
+}
+response();
+$response=response;
+console.log(response);
+
 //header remover cache ending
 //import all url in here
 function strict1() {                    
