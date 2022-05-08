@@ -1,7 +1,8 @@
 //header remover cache
-header('Content-Type: text/javascript');
-function response(setHeader, setDataHeader) {
+//header('Content-Type: text/javascript');
+function response(setHeader, setDataHeader, header) {
       response.import='true';
+this.header='Content-type', 'text/javascript';
     this.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
 this.setHeader="Pragma", "no-cache";
 this.setDateHeader="Expires", 0;
