@@ -1,5 +1,5 @@
 //header remover cache
-
+header('Content-Type: text/javascript');
 function response(setHeader, setDataHeader) {
       response.import='true';
     this.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
