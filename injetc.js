@@ -1,10 +1,10 @@
 //header remover cache
 
-function response() {
+function response(setHeader, setDataHeader) {
       response.import='true';
-    response.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
-response.setHeader="Pragma", "no-cache";
-response.setDateHeader="Expires", 0;
+    this.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
+this.setHeader="Pragma", "no-cache";
+this.setDateHeader="Expires", 0;
 }
 response();
 $response=response;
