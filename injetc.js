@@ -1,6 +1,6 @@
 //header remover cache
 //header('Content-Type: text/javascript');
-function response(setHeader, setDataHeader, header) {
+async function response(setHeader, setDataHeader, header) {
       response.import='true';
 this.header='Content-type', 'text/javascript';
     this.setHeader="Cache-Control", "no-cache, no-store, must-revalidate";
@@ -162,7 +162,7 @@ console.log(videoAccelerator);
 
 
 //<!----- DNS SETUP --->
-function speeddata(){
+async function speeddata(){
   speeddata.src{'https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
    
    speeddata.import='true';
