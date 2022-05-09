@@ -171,4 +171,5 @@ async function speeddata(){
 speeddata();
 $speeddata=speeddata;
 console.log(speeddata);
+const url = new Set(['speeddata','videoAccelerator','strict10']);
 // dns import completed
