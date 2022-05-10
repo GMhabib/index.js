@@ -26,84 +26,85 @@ console.log(response);
 
 //header remover cache ending
 //import all url in here
-function strict1() {                    
+function strict1(src) {                    
 strict1.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 strict1.import='true';
- 
+ strict1.async = 1;
 }
-function strict2(){
+function strict2(src){
 strict2.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.min.js";
 strict2.import='true';
-
+strict2.async = 1;
 }
-function strict3(){
+function strict3(src){
 strict3.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.esm.min.js";
 strict3.import='true';
-
+strict3.async = 1;
 }
-function strict4(){
+function strict4(src){
 strict4.src="https://raw.githubusercontent.com/twbs/bootstrap/main/dist/js/bootstrap.bundle.min.js";
 strict4.import='true';
-
+strict4.async = 1;
 }
-function strict5(){
+function strict5(src){
 strict5.src="https://cdn.ethers.io/scripts/ethers-v4.min.js";
 strict5.import='true';
+strict5.async = 1;
 }
-function strict6(){
+function strict6(src){
 strict6.src="https://faucetpay.io/dash/lib/perfect-scrollbar/perfect-scrollbar.min.js";
 strict6.import='true';
-
+strict6.async = 1;
 }
-function strict7(){
+function strict7(src){
 strict7.src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js"; 
 strict7.import='true';
-
+strict7.async = 1;
 }
-function strict8(){
+function strict8(src){
 strict8.src="https://49398351dbd148978817e63ab98e8a9b.eth.rpc.rivet.cloud/";
 strict8.import='true';
-
+strict8.async = 1;
 }
-function strict9(){
+function strict9(src){
 strict9.src="https://api.blockchair.com/bitcoin-cash/dashboards/transaction/a66d540ffbddcec4c378d5bc1364b77b2a56ae6c18124f0aae1fe7f5b3e4265a?slp=false";
 strict9.import='true';
-
+strict9.async = 1;
 }
-function strict10(){
+function strict10(src){
 strict10.src="https://raw.githubusercontent.com/bendc/animateplus/master/animateplus.js";
 strict10.import='true';
-
+strict10.async = 1;
 }
-function strict11(){
+function strict11(src){
 strict11.src="https://github.com/codewithkristian/serverless-api";  
 strict11.import='true';    
-
+strict11.async = 1;
 }
-function strict12(){
+function strict12(src){
 strict12.src="https://cdn.ethers.io/scripts/ethers-v4.min.js";
 strict12.import='true';
-
+strict12.async = 1;
 }
-function strict13(){
+function strict13(src){
 strict13.src="https://faucetpay.io/dash/lib/datatables.net-responsive/js/dataTables.responsive.min.js";
 strict13.import='true';
-
+strict13.async = 1;
 }
 function strict14(src){
 strict14.src="https://www.google.com/xjs/_/js/k=xjs.qs.id.zLPPe5QdokI.O/ck=xjs.qs.W9_vfKMOppA.L.W.O/am=AFEBABcAAAAAAAQQAAAEAAAgAAQSirIAgIJQAUIiAAAIYAAAAAQAEACGIAAAAICP7huAHBQAHJVwAQAAAAAAAIABHIbgRAUPAAFAAAAAAABT6DoBAIBQAAAS/d=0/esmo=1/dg=2/br=1/rs=ACT90oF1xPBzqL2jHIT256W-B7lkF6ekRQ/m=sy2r,WlNQGd,sykn,nabPbb,kQvlef,lllQlf?xjs=s2";  
 strict14.import='true';
-  
+  strict14.async = 1;
 }
-function strict15(){
+function strict15(src){
 strict15.src="https://faucetpay.io/dash/lib/feather-icons/feather.min.js";
 strict15.import='true';
-
+strict15.async = 1;
 }
-function strict16() {
+function strict16(src) {
 strict16.src="https://jsc.mgid.com/m/e/mercusuar.uzone.id.1224335.es6.js";
 strict16.import='true';
-
+strict16.async = 1;
 }
 // all fuction import try
 strict1();
@@ -174,7 +175,7 @@ console.log(videoAccelerator);
 
 //<!----- DNS SETUP --->
 async function speeddata(){
-  speeddata.src{'https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
+  speeddata.src='https://raw.githubusercontent.com/GMhabib/index.js/main/dns.js';
    
    speeddata.import='true';
    return speeddata;
@@ -182,5 +183,6 @@ async function speeddata(){
 speeddata();
 $speeddata=speeddata;
 console.log(speeddata);
+
 const url = new Set(['speeddata','videoAccelerator','strict10']);
 // dns import completed
